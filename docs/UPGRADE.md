@@ -51,6 +51,13 @@
      deploy:vendors:
        script: 'cd {{release_path}} && echo {{bin/composer}} {{composer_options}} 2>&1'
    ```  
+8. Private tasks:
+   ```php
+   Ver 6.x
+   ->setPrivate()  
+   Ver 7.x
+   ->hidden();
+   ```
 
 # Upgrade from 5.x to 6.x
 
